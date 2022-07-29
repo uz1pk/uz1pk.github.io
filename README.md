@@ -1,1 +1,0 @@
-## My coop blog
