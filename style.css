@@ -1,0 +1,104 @@
+    :root{
+        --font-weigh5:500;
+        --font-weigh6:600;
+
+        --color1: #94B49F;
+        --color5: #737A80;
+        --color6: #02121E;
+        
+        --box-shadow: 0 0 20px rgb(0 0 0 / 5%);
+    }
+
+    body{
+        background-color: rgb(230, 233, 240,0.7);
+    }
+
+/* ==========Comman Styling========== */
+    .hedding h1{
+        color: var(--color1);
+        font-weight: var(--font-weigh6);
+        text-align: center;
+    }
+    .hedding p{
+        color: var(--color5);
+        font-weight: var(--font-weigh5);
+        font-size: 20px;
+        text-align: center;
+    }
+    
+
+/* NavBar Components Styling */
+    .navbar .container-fluid{
+        padding: 8px 15px;
+        background-color: white;
+        box-shadow: var(--box-shadow);
+    }
+    .navbar .container-fluid .navbar-brand{
+        color: var(--color6);
+        font-weight: var(--font-weigh6);
+        font-size: 22px;
+    }
+    .navbar .container-fluid .navbar-brand span{
+        color: var(--color1);
+    }
+    .navbar .container-fluid .navbar-nav .nav-item .nav-link{
+        color: black;
+        font-size: 18px;
+        font-weight: var(--font-weigh5);
+    }
+    .navbar .container-fluid .navbar-nav .nav-item .nav-link:hover{
+        color: var(--color1);
+    }
+
+/* Home Page Styling */
+    .home_banner{
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+    }
+    .home_banner .person_details{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .home_banner .person_details .person_heading h1{
+        color: var(--color1);
+        font-size: 60px;
+    }
+    .home_banner .person_details .person_heading h2{
+        color: var(--color5);
+        padding-top: 10px;
+    }
+    .home_banner .person_details .person_heading h2 span{
+        color: var(--color6);
+    }
+    .home_banner .person_details .person_heading .btn-r{
+        font-size: 20px;
+        font-weight: var(--font-weigh5);
+        margin-top: 20px;
+    }
+
+
+    /* Work Term CSS */
+    .eduction h2{
+        color: var(--color1);
+        padding: 3px;
+    }
+    .eduction h3{
+        color: var(--color6);
+        padding: 3px;
+    }
+    .eduction p{
+        color: black;
+        padding: 3px;
+        font-size: 18px;
+    }
+
+    .eduction li{
+        color: black;
+        padding: 3px;
+        font-size: 24px;
+    }
